@@ -3,7 +3,7 @@ import React from 'react';
 function Main() {
     return (
         <main>
-            {/* Main content goes here */}
+            Main goes hereeee
         </main>
     );
 }
