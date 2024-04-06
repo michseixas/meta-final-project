@@ -3,9 +3,8 @@ import React from 'react';
 function Nav() {
     return (
         <nav>
-        This is the navbar
-            <img src="/images/little-lemon-logo.png" alt="Little Lemon Nav Logo"/>
-            <ul>
+            <img src="/images/little-lemon-logo.png" width="200"  alt="Little Lemon Nav Logo"/>
+            <ul className='nav-list'>
                 <li><a href="/">Home</a></li>
                 <li><a href="/">About</a></li>
                 <li><a href="/">Menu</a></li>

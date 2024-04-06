@@ -3,9 +3,8 @@ import React from 'react';
 function Footer() {
     return (
         <footer>
-           Hi there! I'm the footer
 
-            <img src="/images/littlelemon-vertical-green-logo.png" alt="Little Lemon Nav Logo"/>
+            <img src="/images/littlelemon-vertical-green-logo.png" width="100px" alt="Little Lemon Nav Logo"/>
             <div>
             <h4>Doormat Navigation</h4>
                 <ul>

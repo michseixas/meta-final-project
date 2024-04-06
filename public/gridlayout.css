@@ -1,0 +1,39 @@
+* { outline: 1px solid red; }
+
+
+#root {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 80px minmax(150px, auto);
+    background-color: #FFFFFF;
+
+}
+
+header {
+    grid-column: 2;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+main {
+    grid-column: 2;
+    background-color: #495E57;
+}
+
+footer{
+    display: grid;
+    grid-column: 2;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.nav-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    list-style-type: none;
+    padding-inline-start: 0px;
+  }
+
