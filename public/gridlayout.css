@@ -1,4 +1,12 @@
 * { outline: 1px solid red; }
+/* 
+.karla-nav> {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20;
+    font-style: normal;
+  } */
+  
 
 
 #root {
@@ -17,6 +25,10 @@ header {
 nav {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20;
+    font-style: normal;
 }
 
 
